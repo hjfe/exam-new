@@ -475,22 +475,41 @@ body {
   text-transform: uppercase;
 }
 
-#contact h1 {
+details > summary {
+  padding: 4px;
+  margin: 10px;
+  width: 200px;
+  border: none;
+  background-color: orange;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: orange;
+  padding: 4px;
+  margin: 10px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+}
+
+h1 {
   margin: 10rem 0;
   font-size: 2.5rem;
   text-align: center;
 }
 
-#contact h1 span {
+h1 span {
   color: #4c00ff;
   font-style: italic;
 }
 
-#contact .contact-container {
+.contact-container {
   width: 90vw;
 }
 
-#contact .contact-container form .column {
+.contact-container form .column {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr))[2];
@@ -498,7 +517,7 @@ body {
   grid-gap: 2rem;
 }
 
-#contact .contact-container form .column .box {
+.contact-container form .column .box {
   outline: none;
   border: none;
   background: #000000;
@@ -509,23 +528,23 @@ body {
   padding: 0 2rem;
 }
 
-#contact .contact-container form .column .box::-webkit-input-placeholder {
+.contact-container form .column .box::-webkit-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .column .box:-ms-input-placeholder {
+.contact-container form .column .box:-ms-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .column .box::-ms-input-placeholder {
+.contact-container form .column .box::-ms-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .column .box::placeholder {
+.contact-container form .column .box::placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .msg-box {
+.contact-container form .msg-box {
   width: 100%;
   resize: none;
   height: 10rem;
@@ -539,23 +558,23 @@ body {
   font-style: italic;
 }
 
-#contact .contact-container form .msg-box::-webkit-input-placeholder {
+.contact-container form .msg-box::-webkit-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .msg-box:-ms-input-placeholder {
+.contact-container form .msg-box:-ms-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .msg-box::-ms-input-placeholder {
+.contact-container form .msg-box::-ms-input-placeholder {
   color: #fff;
 }
 
-#contact .contact-container form .msg-box::placeholder {
+.contact-container form .msg-box::placeholder {
   color: #fff;
 }
 
-#contact .contact-container input[type="submit"] {
+.contact-container input[type="submit"] {
   outline: none;
   border: none;
   background: #000000;
@@ -568,7 +587,7 @@ body {
   cursor: pointer;
 }
 
-#contact .contact-container input[type="submit"]:hover {
+.contact-container input[type="submit"]:hover {
   background: #db3482;
 }
 
